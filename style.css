@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /*to set border area inside the given width and hight of the content */
+     
+}
+.navbar{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    padding: 2px;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+    margin: 5px;
+    padding: 1px 4px 0 6px;
+}
+.logo{
+    height: 50px;
+    width: 113px;
+    background-image: url("/images/amazon_logo.png");
+    background-size: cover;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.nav-address{
+    height: 55px;
+    width: fit-content;
+    display: flex;
+   
+    
+}
+.loc-icon{
+    background-position: -71px -378px;
+    width: 15px;
+    
+    margin-top: 8px;
+    display: flex;
+    position: static;
+    float: none;
+    align-items: center;
+}
+.loc-data{
+    margin: 0p 3px 0 3px;
+    display: flex;
+    position: static;
+    flex-flow: column nowrap;
+    
+    justify-content: center;
+}
+.location{
+    color: #ccc;
+    margin-top: 0;
+    padding-right: 0;font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.nav-searchbar{
+    height: 40px;
+    width: 620px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: aqua;
+    border-radius: 3px;
+}
+.search-input{
+    width: 590px;
+    font-size: 1rem;
+    color: rgb(103, 101, 101);
+}
+
+.search-select{
+    height: 40px;
+    width: 52px;
+    border-style: none;
+    border: none;
+    border-top-right-radius: 0;
+ }   
+
+
+.nav-button{
+    width: 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #febd69;
+    border: none;
+}
+.nav-small-font{
+    font-size: 12px;
+    line-height: 14px;
+    height: 14px;
+    font-weight: 400;
+}
+
+.nav-big-font{
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.account-list{
+    border-style: none;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    color: #ccc;
+    height: 30px;
+    
+}
+.nav-signin{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.nav-order{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.nav-cart{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.cart{
+    padding-top: 20px;
+}

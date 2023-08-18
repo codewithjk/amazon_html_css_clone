@@ -5,6 +5,11 @@
     /*to set border area inside the given width and hight of the content */
      
 }
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #b5b9be;
+}
 .navbar{
     display: flex;
     flex-flow: row nowrap;
@@ -152,4 +157,111 @@
 }
 .cart{
     padding-top: 20px;
+}
+.panel{
+    height: 39px;
+    padding-left: 11px;
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+}
+.panel-left{
+    width: 58px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.panel-all{
+    margin-left: 4px;
+}
+.panel-right{
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.panel-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.hero-section{
+    height: 600px;
+    background-image: url(/images/hero_image.jpg);
+    background-size: cover;
+    
+}
+.content{
+    top: 110px;
+    position: absolute; 
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+
+    
+}
+.hero-msg{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.ads{
+    height: 230px;
+}
+.hero-msg a {
+    text-decoration: none;
+    color: #128867;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px;
+    
+}
+.box img{
+    margin: 10px;
+    height: 304px;
+    width: 265px; 
+}
+
+
+.foot-panel1{
+    background-color: #37475A;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+.foot-box{
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.foot-box a {
+    color: #b8b4b4;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-top: 5px;
 }
